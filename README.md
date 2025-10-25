@@ -11,8 +11,6 @@ You will need the [Fira Sans](https://fonts.google.com/specimen/Fira+Sans) font 
 
 This template also uses Font Awesome icons via the [fontawesome](https://typst.app/universe/package/fontawesome) package. You will need to install the [Font Awesome 7 Desktop](https://fontawesome.com/download) fonts on your system, or upload them to your project folder if you use the Typst web app.
 
-**Note: at this time, one of the template's components (`#skill-levels`) does not render properly in PDF exports because of a bug in Typst 0.13.1. You may use the latest development version to fix this (in the web app, go to your project's settings and change the compiler version).**
-
 
 ## Installation
 
