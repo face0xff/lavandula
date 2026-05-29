@@ -170,18 +170,18 @@
   )
 }
 
-#let section(title: "", body) = {
-  block(width: 100%, below: 3.5em)[
+#let section(title: "", below: 3.5em, body) = {
+  block(width: 100%, below: below)[
     == #title
     #block(inset: (x: 0.5pt), width: 100%, body)
   ]
 }
 
-#let section-element(title: "", info: "", body) = {
+#let section-element(title: "", info: "", below: 1.7em, body) = {
   block(
     inset: (top: 3pt),
     width: 100%,
-    below: 1.7em,
+    below: below,
     grid(
       columns: (auto, 1fr),
       rows: auto,
@@ -197,11 +197,11 @@
   )
 }
 
-#let section-element-advanced(title: "", info-top-right: "", info-top-left: "", icon: "", body) = {
+#let section-element-advanced(title: "", info-top-right: "", info-top-left: "", icon: "", below: 1.7em, body) = {
   block(
     inset: (top: 3pt),
     width: 100%,
-    below: 1.7em,
+    below: below,
     grid(
       columns: (15pt, auto, 1fr),
       rows: auto,
